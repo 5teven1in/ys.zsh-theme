@@ -33,7 +33,7 @@ local ret_status="%(?,%{$terminfo[bold]$fg[green]%}➜ ,%{$terminfo[bold]$fg[red
 
 PROMPT="
 %{$fg[cyan]%}%* \
-%(#,%{$bg[yellow]%}%{$fg[black]%}%n%{$reset_color%},%{$fg[yellow]%}%n) \
+%(#,%{$bg[red]%}%{$fg[black]%}%n%{$reset_color%},%{$fg[yellow]%}%n) \
 %{$fg[white]%}@ \
 %{$fg[white]%}%m \
 %{$fg[white]%}in \
